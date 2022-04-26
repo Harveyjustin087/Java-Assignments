@@ -1,0 +1,13 @@
+html{
+    background-image: url("https://www.nawpic.com/media/2020/beach-background-nawpic-8.jpg");
+}
+
+.mainForm{
+    width: 800px;
+    color: white;
+    background-color: deepskyblue;
+    margin-left: 25%;
+    align: center;
+    font-family: Arial;
+    border: 2px solid black;
+}

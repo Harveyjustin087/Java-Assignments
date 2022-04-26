@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JustinHarvey_Assignment4:war exploded">
+    <output-path>$PROJECT_DIR$/target/JustinHarvey_Assignment4-1.0-SNAPSHOT.war</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>JustinHarvey_Assignment4</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JustinHarvey_Assignment4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/JustinHarvey_Assignment4-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JustinHarvey_Assignment4/web/Web" />
+    </root>
+  </artifact>
+</component>
